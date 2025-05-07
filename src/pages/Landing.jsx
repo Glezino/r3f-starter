@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 export default function Landing() {
   return (
     <div>
-      <Link to="/scene1">Escena 1</Link> | <Link to="/scene2">Escena 2</Link>
+      <Link to="/example">scene-example</Link><br/>
+      <Link to="/rotating-box">rotating-box</Link><br/>
+      <Link to="/clickable-box">clickable-box</Link><br/>
+      <Link to="/load-model">load-model</Link><br/>
+      <Link to="/lightning-and-shadows">lightning-and-shadows</Link><br/>
     </div>
   );
 }
