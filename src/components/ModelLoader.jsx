@@ -26,8 +26,6 @@ export default function ModelLoader({
   }
 
   return (
-    <Suspense fallback={<Loader />}>
       <primitive object={scene} {...props} />
-    </Suspense>
   )
 }

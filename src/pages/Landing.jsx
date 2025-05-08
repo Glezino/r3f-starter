@@ -11,6 +11,7 @@ export default function Landing() {
       <Link to="/load-model">load-model</Link><br/>
       <Link to="/lightning-and-shadows">lightning-and-shadows</Link><br/>
       <Link to="/environment">environment</Link><br/>
+      <Link to="/prueba-environment">prueba-environment</Link><br/>
     </div>
   );
 }
